@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MonedasModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Moneda">
+    <Key>
+      <PropertyRef Name="MonedaId" />
+    </Key>
+    <Property Name="MonedaId" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Simbolo" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="MonedasPrecios" Relationship="Self.FK_MonedasPrecios_Monedas" FromRole="Monedas" ToRole="MonedasPrecios" />
+  </EntityType>
+  <EntityType Name="MonedasPrecio">
+    <Key>
+      <PropertyRef Name="MonedaId" />
+      <PropertyRef Name="Fecha" />
+    </Key>
+    <Property Name="MonedaId" Type="Int32" Nullable="false" />
+    <Property Name="Fecha" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="PrecioCompra" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="PrecioVenta" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <NavigationProperty Name="Moneda" Relationship="Self.FK_MonedasPrecios_Monedas" FromRole="MonedasPrecios" ToRole="Monedas" />
+  </EntityType>
+  <Association Name="FK_MonedasPrecios_Monedas">
+    <End Role="Monedas" Type="Self.Moneda" Multiplicity="1" />
+    <End Role="MonedasPrecios" Type="Self.MonedasPrecio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Monedas">
+        <PropertyRef Name="MonedaId" />
+      </Principal>
+      <Dependent Role="MonedasPrecios">
+        <PropertyRef Name="MonedaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MonedasEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Monedas" EntityType="Self.Moneda" />
+    <EntitySet Name="MonedasPrecios" EntityType="Self.MonedasPrecio" />
+    <AssociationSet Name="FK_MonedasPrecios_Monedas" Association="Self.FK_MonedasPrecios_Monedas">
+      <End Role="Monedas" EntitySet="Monedas" />
+      <End Role="MonedasPrecios" EntitySet="MonedasPrecios" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

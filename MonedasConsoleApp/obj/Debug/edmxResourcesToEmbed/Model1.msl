@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MonedasModelStoreContainer" CdmEntityContainer="MonedasEntities">
+    <EntitySetMapping Name="Monedas">
+      <EntityTypeMapping TypeName="MonedasModel.Moneda">
+        <MappingFragment StoreEntitySet="Monedas">
+          <ScalarProperty Name="MonedaId" ColumnName="MonedaId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Simbolo" ColumnName="Simbolo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MonedasPrecios">
+      <EntityTypeMapping TypeName="MonedasModel.MonedasPrecio">
+        <MappingFragment StoreEntitySet="MonedasPrecios">
+          <ScalarProperty Name="MonedaId" ColumnName="MonedaId" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="PrecioCompra" ColumnName="PrecioCompra" />
+          <ScalarProperty Name="PrecioVenta" ColumnName="PrecioVenta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

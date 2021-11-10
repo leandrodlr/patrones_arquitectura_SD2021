@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MonedasModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Monedas">
+    <Key>
+      <PropertyRef Name="MonedaId" />
+    </Key>
+    <Property Name="MonedaId" Type="int" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Simbolo" Type="varchar" MaxLength="3" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MonedasPrecios">
+    <Key>
+      <PropertyRef Name="MonedaId" />
+      <PropertyRef Name="Fecha" />
+    </Key>
+    <Property Name="MonedaId" Type="int" Nullable="false" />
+    <Property Name="Fecha" Type="date" Nullable="false" />
+    <Property Name="PrecioCompra" Type="money" Nullable="false" />
+    <Property Name="PrecioVenta" Type="money" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_MonedasPrecios_Monedas">
+    <End Role="Monedas" Type="Self.Monedas" Multiplicity="1" />
+    <End Role="MonedasPrecios" Type="Self.MonedasPrecios" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Monedas">
+        <PropertyRef Name="MonedaId" />
+      </Principal>
+      <Dependent Role="MonedasPrecios">
+        <PropertyRef Name="MonedaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MonedasModelStoreContainer">
+    <EntitySet Name="Monedas" EntityType="Self.Monedas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MonedasPrecios" EntityType="Self.MonedasPrecios" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_MonedasPrecios_Monedas" Association="Self.FK_MonedasPrecios_Monedas">
+      <End Role="Monedas" EntitySet="Monedas" />
+      <End Role="MonedasPrecios" EntitySet="MonedasPrecios" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
