@@ -13,3 +13,18 @@ C:\dev\ClaseUCe\patrones_arquitectura_SD2021\MonedasConsoleApp\obj\Debug\Monedas
 C:\dev\ClaseUCe\patrones_arquitectura_SD2021\MonedasConsoleApp\bin\Debug\HtmlAgilityPack.dll
 C:\dev\ClaseUCe\patrones_arquitectura_SD2021\MonedasConsoleApp\bin\Debug\HtmlAgilityPack.pdb
 C:\dev\ClaseUCe\patrones_arquitectura_SD2021\MonedasConsoleApp\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Leandro\Desktop\Clases UCE\Arquitectura\patrones_arquitectura_SD2021\MonedasConsoleApp\bin\Debug\MonedasConsoleApp.exe.config
+C:\Users\Leandro\Desktop\Clases UCE\Arquitectura\patrones_arquitectura_SD2021\MonedasConsoleApp\bin\Debug\MonedasConsoleApp.exe
+C:\Users\Leandro\Desktop\Clases UCE\Arquitectura\patrones_arquitectura_SD2021\MonedasConsoleApp\bin\Debug\MonedasConsoleApp.pdb
+C:\Users\Leandro\Desktop\Clases UCE\Arquitectura\patrones_arquitectura_SD2021\MonedasConsoleApp\bin\Debug\EntityFramework.dll
+C:\Users\Leandro\Desktop\Clases UCE\Arquitectura\patrones_arquitectura_SD2021\MonedasConsoleApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Leandro\Desktop\Clases UCE\Arquitectura\patrones_arquitectura_SD2021\MonedasConsoleApp\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Leandro\Desktop\Clases UCE\Arquitectura\patrones_arquitectura_SD2021\MonedasConsoleApp\bin\Debug\EntityFramework.xml
+C:\Users\Leandro\Desktop\Clases UCE\Arquitectura\patrones_arquitectura_SD2021\MonedasConsoleApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Leandro\Desktop\Clases UCE\Arquitectura\patrones_arquitectura_SD2021\MonedasConsoleApp\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Leandro\Desktop\Clases UCE\Arquitectura\patrones_arquitectura_SD2021\MonedasConsoleApp\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Leandro\Desktop\Clases UCE\Arquitectura\patrones_arquitectura_SD2021\MonedasConsoleApp\obj\Debug\MonedasConsoleApp.csprojAssemblyReference.cache
+C:\Users\Leandro\Desktop\Clases UCE\Arquitectura\patrones_arquitectura_SD2021\MonedasConsoleApp\obj\Debug\MonedasConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Leandro\Desktop\Clases UCE\Arquitectura\patrones_arquitectura_SD2021\MonedasConsoleApp\obj\Debug\MonedasConsoleApp.csproj.CopyComplete
+C:\Users\Leandro\Desktop\Clases UCE\Arquitectura\patrones_arquitectura_SD2021\MonedasConsoleApp\obj\Debug\MonedasConsoleApp.exe
+C:\Users\Leandro\Desktop\Clases UCE\Arquitectura\patrones_arquitectura_SD2021\MonedasConsoleApp\obj\Debug\MonedasConsoleApp.pdb

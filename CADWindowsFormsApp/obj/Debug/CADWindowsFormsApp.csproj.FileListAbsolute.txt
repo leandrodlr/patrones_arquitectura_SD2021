@@ -1,0 +1,10 @@
+C:\Users\Leandro\Desktop\Clases UCE\Arquitectura\patrones_arquitectura_SD2021\CADWindowsFormsApp\bin\Debug\CADWindowsFormsApp.exe.config
+C:\Users\Leandro\Desktop\Clases UCE\Arquitectura\patrones_arquitectura_SD2021\CADWindowsFormsApp\bin\Debug\CADWindowsFormsApp.exe
+C:\Users\Leandro\Desktop\Clases UCE\Arquitectura\patrones_arquitectura_SD2021\CADWindowsFormsApp\bin\Debug\CADWindowsFormsApp.pdb
+C:\Users\Leandro\Desktop\Clases UCE\Arquitectura\patrones_arquitectura_SD2021\CADWindowsFormsApp\obj\Debug\CADWindowsFormsApp.csprojAssemblyReference.cache
+C:\Users\Leandro\Desktop\Clases UCE\Arquitectura\patrones_arquitectura_SD2021\CADWindowsFormsApp\obj\Debug\CADWindowsFormsApp.Form1.resources
+C:\Users\Leandro\Desktop\Clases UCE\Arquitectura\patrones_arquitectura_SD2021\CADWindowsFormsApp\obj\Debug\CADWindowsFormsApp.Properties.Resources.resources
+C:\Users\Leandro\Desktop\Clases UCE\Arquitectura\patrones_arquitectura_SD2021\CADWindowsFormsApp\obj\Debug\CADWindowsFormsApp.csproj.GenerateResource.cache
+C:\Users\Leandro\Desktop\Clases UCE\Arquitectura\patrones_arquitectura_SD2021\CADWindowsFormsApp\obj\Debug\CADWindowsFormsApp.csproj.CoreCompileInputs.cache
+C:\Users\Leandro\Desktop\Clases UCE\Arquitectura\patrones_arquitectura_SD2021\CADWindowsFormsApp\obj\Debug\CADWindowsFormsApp.exe
+C:\Users\Leandro\Desktop\Clases UCE\Arquitectura\patrones_arquitectura_SD2021\CADWindowsFormsApp\obj\Debug\CADWindowsFormsApp.pdb
